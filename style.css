@@ -1,0 +1,51 @@
+/* all css design set default*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+/* navbar section design start here*/
+.navbar{
+	height: 50px;
+	width: 100%;
+	background-color: #4D636F;
+	
+}
+
+.log {
+	float: left;
+	line-height: 50px;
+	font-size: 25px;
+	padding: 0 15px;
+}
+.log:hover{
+	background-color:#CCCCCC;
+}
+.navcontent{
+	float: left;
+}
+.navcontent ul li{
+	float: left;
+	line-height: 50px;
+}
+.navcontent ul li a{
+	padding: 18px 25px;
+	font-size: 20px;
+	color: white;
+}
+.navcontent ul li a:hover{
+	background-color: white;
+	color:black;
+}
+.profileimg{
+	float: right;
+	padding: 10px;
+}
+div.profileimg a img{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+/* navbar section design end here*/
