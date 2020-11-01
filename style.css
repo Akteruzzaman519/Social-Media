@@ -14,6 +14,7 @@
 	
 }
 
+/* log section design start here*/
 .log {
 	float: left;
 	line-height: 50px;
@@ -23,6 +24,7 @@
 .log:hover{
 	background-color:#CCCCCC;
 }
+/* log section design End here*/
 .navcontent{
 	float: left;
 }
@@ -49,3 +51,58 @@ div.profileimg a img{
 	border-radius: 50%;
 }
 /* navbar section design end here*/
+
+body{
+	background-color: darkgray;
+}
+/* Container section design start here*/
+.container{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* left sidebar section design Start here*/
+.leftsidebar{
+	width: 20%;
+	margin-right: 2.5%;
+	height: auto;
+	float: left;
+}
+/* left sidebar section design End here*/
+
+
+/* main content section design Start here*/
+.maincontent{
+	width: 60%;
+	float: left;
+	height: auto;
+	margin-right:2.5%
+}
+/* main content section design End here*/
+
+
+/* right sidebar section design Start here*/
+.rightsidebar{
+	width: 15%;
+	float: left;
+	height: auto;
+}
+/* right sidebar section design End here*/
+
+
+
+/* Container section design end here*/
+
+
+
+
+
+
+
+
+
+
+
+
