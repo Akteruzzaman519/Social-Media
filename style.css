@@ -76,6 +76,7 @@ body{
 }
 
 .profile{
+	margin-top: 15px;
 	padding: 5px;
 	background-color: #FFFFFF;
 }
@@ -95,6 +96,51 @@ body{
 .location a i{
 	padding: 4px;
 }
+.myday{
+	
+	background-color: darkslategray;
+	margin-top: 15px;
+}
+.myday a{
+	color: white;
+	display: block;
+	line-height:50px;
+	font-size: 25px;
+	padding-left: 15px;
+}
+div.myday a i{
+	margin-right: 10px;
+}
+.myday a:hover{
+	background-color: #CCCCCC;
+}
+
+.favorite{
+	padding: 10px;
+	background-color: #FFFFFF;
+	margin-top: 15px;
+}
+.btn{
+	display: inline;
+	font-size: 20px;
+}
+.message{
+	padding: 10px;
+	background-color:#DFE5E8;
+	margin-top: 15px;
+}
+.head{
+	position: relative;
+}
+.head i{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	display: block;
+	background-color: gray;
+	padding: 5px
+}
+
 /* left sidebar section design End here*/
 
 
@@ -104,6 +150,23 @@ body{
 	float: left;
 	height: auto;
 	margin-right:2.5%
+}
+.postwrite{
+	padding: 15px;
+	background-color: #FFFFFF;
+	font-size: 25px;
+}
+input[type=textarea]{
+	width: 100%;
+	padding: 15px;
+	font-size: 25px;
+	margin: 15px 0;
+}
+.btn button{
+	padding: 12px 16px;
+}
+.btn button i{
+	margin-right: 10px;
 }
 /* main content section design End here*/
 
