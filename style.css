@@ -70,6 +70,31 @@ body{
 	height: auto;
 	float: left;
 }
+.name p{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.profile{
+	padding: 5px;
+	background-color: #FFFFFF;
+}
+
+.image img{
+	height: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.location{
+	padding: 5px;
+}
+.location a{
+	display: block;
+	padding:10px 0;
+}
+.location a i{
+	padding: 4px;
+}
 /* left sidebar section design End here*/
 
 
